@@ -1,5 +1,5 @@
 AutoForm.addInputType('autocomplete-input', {
-  template: 'autoformAutocompleteInput'
+  template: 'afAutocompleteInput'
 });
 
 AutoForm.addInputType('autocomplete-textarea', {
