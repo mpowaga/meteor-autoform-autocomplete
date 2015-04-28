@@ -1,7 +1,7 @@
 Package.describe({
   name: 'mpowaga:autoform-autocomplete',
-  version: '0.0.1',
-  summary: 'Autocomplete inputs for autoform using mizzao:autocomplete',
+  version: '0.0.2',
+  summary: 'Autocomplete inputs for aldeed:autoform using mizzao:autocomplete',
   git: 'https://github.com/mpowaga/meteor-autoform-autocomplete.git',
   documentation: 'README.md'
 });

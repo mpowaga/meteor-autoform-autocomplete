@@ -1,7 +1,7 @@
 meteor-autoform-autocomplete
 ============================
 
-Autocomplete inputs for autoform using mizzao:autocomplete.
+Autocomplete inputs for [aldeed:autoform](https://github.com/aldeed/meteor-autoform) using [mizzao:autocomplete](https://github.com/mizzao/meteor-autocomplete).
 
 ## Usage ##
 
@@ -13,22 +13,19 @@ Install the package:
 meteor add mpowaga:autoform-autocomplete
 ```
 
-Define schema:
+Define schema like this:
 
 ```
 PostsSchema = new SimpleSchema({
   /* ... */
+
   title: {
     type: String,
     autoform: {
       afFieldInput: {
-        autoform: {
-          afFieldInput: {
-            type: 'autocomplete-input',
-            placeholder: 'Title',
-            settings: // mizzao:autocomplete settings. required
-          }
-        }
+        type: 'autocomplete-input',
+        placeholder: 'Title',
+        settings: // mizzao:autocomplete settings. required
       }
     }
   },
