@@ -15,7 +15,7 @@ meteor add mpowaga:autoform-autocomplete
 
 Define schema like this:
 
-```
+```javascript
 PostsSchema = new SimpleSchema({
   /* ... */
 
@@ -25,7 +25,7 @@ PostsSchema = new SimpleSchema({
       afFieldInput: {
         type: 'autocomplete-input',
         placeholder: 'Title',
-        settings: // mizzao:autocomplete settings. required
+        settings: {} // mizzao:autocomplete settings. required
       }
     }
   },
@@ -36,7 +36,7 @@ PostsSchema = new SimpleSchema({
       afFieldInput: {
         type: 'autocomplete-textarea',
         rows: 4,
-        settings: // mizzao:autocomplete settings. required
+        settings: {} // mizzao:autocomplete settings. required
       }
     }
   }
